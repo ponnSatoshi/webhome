@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 62.5%; 
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+body {
+	font-size: 14px; font-size: 1.4rem; 
+	background-color: #fbfbfb;
+	color: #666666;
+}
+
+header {
+	width: 100%;
+	padding: 8px 0 2px 0;
+	border-top: 4px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#f6f6f7),
+		to(#ffffff)
+	);
+}
+
+#rogo {
+	float: left;
+	width: 199px;
+	display: block;	
+	border-right: 1px solid #d8d8d8;
+}
+
+nav {
+	width: 960px;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+nav ul li a {
+	float: left;
+	padding: 0.4em 0;
+	display: block;
+	width: 12.98%;
+	text-align: center;
+	text-decoration: none;
+	color: #b3b3b3;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #d8d8d8;
+	-webkit-transition: 0.3s linear;
+}
+
+nav ul li a.active {
+	border-left: 1px solid #4b42ff;
+	color: #ffffff;
+	text-shadow: -1px -1px 3px #868686, 1px 1px 3px #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#2818c3 0%,
+		#141A72);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#2818c3),
+		to(#141A72));
+}
+
+#mainContainer {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+footer {
+	overflow: hidden;
+	color: #999999;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+#footerContainer {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0 30px 0;
+}
+
+#shadowBox {
+	position: relative;
+	width: 1000px;
+	margin: 100px auto 0 auto;
+}
+
+#shadowBox a {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: -26px;
+	padding: 2px 10px 2px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #999999;
+	border-bottom: 1px solid #e4e4e4;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	background: -moz-linear-gradient(
+		top,
+		#efefef 0%,
+		#f8f8f8);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#efefef),
+		to(#f8f8f8));
+}
+
+#footerRogoBox {
+	float: left;
+}
+
+#siteMap {
+	float: right;
+	text-align: right;
+}
+	
+
+/* ------------------------------- *
+maring
+* -------------------------------- */
+
+.mgTB01 { margin-top: 5px; margin-bottom: 5px; }
+.mgTB02 { margin-top: 10px; margin-bottom: 10px; }
+
+.mgB01 { margin-bottom: 5px; }
+.mgB02 { margin-bottom: 10px; }
+.mgB03 { margin-bottom: 15px; }
+.mgB04 { margin-bottom: 20px; }
+.mgB05 { margin-bottom: 25px; }
+.mgB06 { margin-bottom: 30px; }
+
+.mgR001 {
+	margin-right: 29px;
+}
+
+
+/* ------------------------------- *
+float
+* -------------------------------- */
+
+.floatL { float: left; }
+.floatR { float: right; }
+
+
+/* ------------------------------- *
+line
+* -------------------------------- */
+
+.line01 {
+	display: block;
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid #141A72;
+}
+
+
+/* ------------------------------- *
+textBox
+* -------------------------------- */
+
+.textBox01 {
+	padding: 5px;
+}
+
+/* ------------------------------- *
+clearFix
+* -------------------------------- */
+
+.clearFix:after {
+	display: block;
+	content: "";
+	clear: both;
+	background-image: url(../images/challe25.png);
+}
+
+h3 {
+	margin: 15px 0 5px 0;
+}

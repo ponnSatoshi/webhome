@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav ul li a:hover {
+	color: #ffffff;
+	background-color: #df0000;
+}
+
+nav ul li a:hover {
+	color: #ffffff;
+	background-color: #000bdf;
+	border-left: 1px solid #424bff;
+	text-shadow: -1px -1px 3px #868686, 1px 1px 3px #ffffff;
+}
+
+@-webkit-keyframes scale01 {
+	
+	from { height: 99px; }
+	to { height: 200px; }
+	
+}

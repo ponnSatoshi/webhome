@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+#picContainer {
+	text-align: center;
+	margin: 0 auto 20px auto;
+	height: auto;
+}
+
+.titleBox {
+	padding: 3px 5px 3px 22px;
+	overflow: hidden;
+	border-top: 2px solid #141A72;
+	border-bottom: 1px solid #e6e6e6;
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		to(#f8f8f8));
+	color: #141A72;
+}
+
+.titleBox h2 {
+	position: relative;
+	float: left;
+	padding: 10px 0;
+	margin-left: 5px;
+	font-size: 16px; font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.titleBox h2:before {
+	content: "";
+	position: absolute;
+	left: -18px;
+	top: 18px;
+	width: 14px;
+	height: 5px;
+	background: url(../images/icon_line01.gif) no-repeat;
+}
+
+.titleBox span {
+	position: absolute;
+	padding: 11px 0 0 10px;
+	color: #909090;
+	font-size: 10px; font-size: 1.2rem;
+}
+
+#newsContainer {
+	height: auto;
+	min-height: 347px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}	
+
+#newsTitle a {
+	margin-top: 10px;
+	margin-right: 3px;
+	float: right;
+	text-decoration: none;
+	color: #141A72;
+}
+
+#newsTitle a:after {
+	content: "▲";
+	float: right;
+	display: block;
+	width: 10px;
+	height: 10px;
+	color: #d21b1f;
+	margin-right: 3px;
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+#newsBox ul li {
+	width: 95%;
+	margin: 0 auto 10px auto;
+	padding: 15px 8px;
+	border-bottom: 1px dotted #cccccc;
+}
+
+.bannerContainer {
+	width: 48%;
+	min-height: 215px;
+	border: 1px solid #cccccc;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.bannerContainer article {
+	width: 46%;
+	padding: 10px 0 10px 10px;
+	text-align: left;
+	font-size: 11px; font-size: 1.1rem;
+}
+
+.bannerContainer article a {
+	display: block;
+	position: relative;
+	padding-left: 15px;
+}
+
+.bannerContainer article span {
+	position: absolute;
+	color: #d21b1f;
+	text-decoration: none;	
+	-webkit-transform: rotate(-30deg);
+}
+
+.jobTitle {
+	overflow: hidden;
+	border-top: 2px solid #141A72;
+	border-bottom: 1px solid #e6e6e6;
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		to(#f8f8f8));
+	color: #141A72;
+}
+
+.jobBox {
+	float: left;
+}
+
+.calle25Box {
+	float: right;
+}
+
+.relativeImg {
+	position: relative;
+}
+
+#companyContainer {
+	width: 31%;
+	float: right;
+	margin-bottom: 15px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+#companyTitle {
+	overflow: hidden;
+	border-top: 2px solid #141A72;
+	border-bottom: 1px solid #e6e6e6;
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		to(#f8f8f8));
+	color: #141A72;
+}
+
+#companyContainer ul {
+	margin: 0 auto;
+	width: 95%;
+}
+
+#companyContainer ul li {
+	padding: 6px 0px;
+	border-bottom: 1px dotted #cccccc;
+	font-size: 12px; font-size: 1.2rem;
+}
+
+#companyContainer h5 {
+	font-size: 14px; font-size: 1.4rem;
+	font-weight: 600;
+}
+
+#companyContainer h4 {
+	display: block;
+	text-align: center;
+	font-size: 16px; font-size: 1.6rem;
+	font-weight: 600;
+}
+
+#infoBox {
+	padding: 0.8em 0;
+	width: 100%;
+	font-size: 14px; font-size: 1.4rem;
+	text-align: center;
+	background-color: #141A72;
+/*
+	background: -moz-linear-gradient(
+		top,
+		#fafafa 0%,
+		#ededed);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#fafafa),
+		to(#ededed));
+*/
+}
+
+#infoBox a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
